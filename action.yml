@@ -1,6 +1,6 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Echo leaks action'
+description: 'Detect echo leaks in your code'
+author: 'Diego Martin Hernandez'
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
@@ -9,15 +9,15 @@ branding:
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  path:
+    description: 'Path to the folder containing your code'
     required: true
-    default: '1000'
+    default: './'
 
 # Define your outputs here.
 outputs:
-  time:
-    description: 'Your output description here'
+  message:
+    description: 'Message to print'
 
 runs:
   using: node20
