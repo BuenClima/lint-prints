@@ -1,16 +1,19 @@
 {
-  "name": "typescript-action",
-  "description": "GitHub Actions TypeScript template",
+  "name": "echo-leaks",
+  "description": "GitHub Action to detect echo leaks in your code",
   "version": "0.0.0",
-  "author": "",
+  "author": {
+    "name": "Diego Martin Hernandez",
+    "email": "diegomartindev@gmail.com"
+  },
   "private": true,
-  "homepage": "https://github.com/actions/typescript-action",
+  "homepage": "https://github.com/BuenClima/echo-leaks",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/BuenClima/echo-leaks.git"
   },
   "bugs": {
-    "url": "https://github.com/actions/typescript-action/issues"
+    "url": "https://github.com/BuenClima/echo-leaks/issues"
   },
   "keywords": [
     "actions",
